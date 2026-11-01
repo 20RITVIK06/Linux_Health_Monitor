@@ -1,0 +1,10 @@
+2026-10-25T17:32:50+00:00
+PRETTY_NAME="Ubuntu 24.04.3 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.3 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+Linux 6.18.55 x86_64 GNU/Linux
+GNU bash, version 5.2.21(1)-release (x86_64-pc-linux-gnu)
+uid=0(root) gid=0(root) groups=0(root)

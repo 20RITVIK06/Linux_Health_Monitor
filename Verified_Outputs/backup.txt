@@ -1,0 +1,6 @@
+$ cmp live-data/metrics.csv backup/metrics.csv
+cmp exit status: 0
+
+$ sha256sum live-data/metrics.csv backup/metrics.csv
+213f1eb49d8d652d29a46073520dd8eec76a5909269a9aaed793f4b45d08b430  live-data/metrics.csv
+213f1eb49d8d652d29a46073520dd8eec76a5909269a9aaed793f4b45d08b430  backup/metrics.csv

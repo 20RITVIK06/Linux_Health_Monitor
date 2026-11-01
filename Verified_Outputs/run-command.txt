@@ -1,0 +1,14 @@
+$ bash linux_health.sh --interval 4 --samples 20
+  --data-dir live-data
+
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:03:06+05:30 | Sample 20
+CPU 0.39% | Memory 5.82% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: next 60s 0.58% | slope +0.18 points/min | R2 0.08 | trend estimate
+Memory: next 60s 5.93% | slope +0.06 points/min | R2 0.25 | trend estimate
+Disk: next 60s 1.00% | slope +0.00 points/min | R2 0.00 | trend estimate
+
+Current readings: below thresholds
+

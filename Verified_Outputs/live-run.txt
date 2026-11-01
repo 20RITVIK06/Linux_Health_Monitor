@@ -1,0 +1,280 @@
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:01:49+05:30 | Sample 1
+CPU 0.06% | Memory 5.75% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (1/20 samples; 0/60 seconds)
+Memory: collecting history (1/20 samples; 0/60 seconds)
+Disk: collecting history (1/20 samples; 0/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:01:53+05:30 | Sample 2
+CPU 0.25% | Memory 5.77% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (2/20 samples; 4/60 seconds)
+Memory: collecting history (2/20 samples; 4/60 seconds)
+Disk: collecting history (2/20 samples; 4/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:01:57+05:30 | Sample 3
+CPU 0.17% | Memory 5.79% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (3/20 samples; 8/60 seconds)
+Memory: collecting history (3/20 samples; 8/60 seconds)
+Disk: collecting history (3/20 samples; 8/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:02:01+05:30 | Sample 4
+CPU 0.22% | Memory 5.81% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (4/20 samples; 12/60 seconds)
+Memory: collecting history (4/20 samples; 12/60 seconds)
+Disk: collecting history (4/20 samples; 12/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:02:06+05:30 | Sample 5
+CPU 0.25% | Memory 5.82% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (5/20 samples; 17/60 seconds)
+Memory: collecting history (5/20 samples; 17/60 seconds)
+Disk: collecting history (5/20 samples; 17/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:02:10+05:30 | Sample 6
+CPU 0.17% | Memory 5.83% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (6/20 samples; 21/60 seconds)
+Memory: collecting history (6/20 samples; 21/60 seconds)
+Disk: collecting history (6/20 samples; 21/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:02:14+05:30 | Sample 7
+CPU 0.19% | Memory 5.84% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (7/20 samples; 25/60 seconds)
+Memory: collecting history (7/20 samples; 25/60 seconds)
+Disk: collecting history (7/20 samples; 25/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:02:18+05:30 | Sample 8
+CPU 0.50% | Memory 5.91% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (8/20 samples; 29/60 seconds)
+Memory: collecting history (8/20 samples; 29/60 seconds)
+Disk: collecting history (8/20 samples; 29/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:02:22+05:30 | Sample 9
+CPU 0.25% | Memory 5.85% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (9/20 samples; 33/60 seconds)
+Memory: collecting history (9/20 samples; 33/60 seconds)
+Disk: collecting history (9/20 samples; 33/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:02:26+05:30 | Sample 10
+CPU 0.22% | Memory 5.84% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (10/20 samples; 37/60 seconds)
+Memory: collecting history (10/20 samples; 37/60 seconds)
+Disk: collecting history (10/20 samples; 37/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:02:30+05:30 | Sample 11
+CPU 0.25% | Memory 5.86% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (11/20 samples; 41/60 seconds)
+Memory: collecting history (11/20 samples; 41/60 seconds)
+Disk: collecting history (11/20 samples; 41/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:02:34+05:30 | Sample 12
+CPU 0.30% | Memory 5.89% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (12/20 samples; 45/60 seconds)
+Memory: collecting history (12/20 samples; 45/60 seconds)
+Disk: collecting history (12/20 samples; 45/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:02:38+05:30 | Sample 13
+CPU 0.14% | Memory 5.89% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (13/20 samples; 49/60 seconds)
+Memory: collecting history (13/20 samples; 49/60 seconds)
+Disk: collecting history (13/20 samples; 49/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:02:42+05:30 | Sample 14
+CPU 0.30% | Memory 5.90% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (14/20 samples; 53/60 seconds)
+Memory: collecting history (14/20 samples; 53/60 seconds)
+Disk: collecting history (14/20 samples; 53/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:02:46+05:30 | Sample 15
+CPU 0.25% | Memory 5.78% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (15/20 samples; 57/60 seconds)
+Memory: collecting history (15/20 samples; 57/60 seconds)
+Disk: collecting history (15/20 samples; 57/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:02:50+05:30 | Sample 16
+CPU 1.30% | Memory 5.91% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (16/20 samples; 61/60 seconds)
+Memory: collecting history (16/20 samples; 61/60 seconds)
+Disk: collecting history (16/20 samples; 61/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:02:54+05:30 | Sample 17
+CPU 0.19% | Memory 5.85% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (17/20 samples; 65/60 seconds)
+Memory: collecting history (17/20 samples; 65/60 seconds)
+Disk: collecting history (17/20 samples; 65/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:02:58+05:30 | Sample 18
+CPU 0.19% | Memory 5.85% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (18/20 samples; 69/60 seconds)
+Memory: collecting history (18/20 samples; 69/60 seconds)
+Disk: collecting history (18/20 samples; 69/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:03:02+05:30 | Sample 19
+CPU 0.17% | Memory 5.85% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (19/20 samples; 73/60 seconds)
+Memory: collecting history (19/20 samples; 73/60 seconds)
+Disk: collecting history (19/20 samples; 73/60 seconds)
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:03:06+05:30 | Sample 20
+CPU 0.39% | Memory 5.82% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: next 60s 0.58% | slope +0.18 points/min | R2 0.08 | trend estimate
+Memory: next 60s 5.93% | slope +0.06 points/min | R2 0.25 | trend estimate
+Disk: next 60s 1.00% | slope +0.00 points/min | R2 0.00 | trend estimate
+
+Current readings: below thresholds
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/live-data/dashboard.html (reloads automatically)

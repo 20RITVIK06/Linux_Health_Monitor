@@ -1,0 +1,12 @@
+               total        used        free      shared  buff/cache   available
+Mem:            9967         597        9450           0         149        9369
+Swap:              0           0           0
+Filesystem     1024-blocks   Used Available Capacity Mounted on
+overlay           32978704 104088  31180512       1% /
+cpu  479 0 758 943009 3 0 39 442 0 0
+cpu0 13 0 47 104865 0 0 19 36 0 0
+MemTotal:       10206484 kB
+MemAvailable:    9594664 kB
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0

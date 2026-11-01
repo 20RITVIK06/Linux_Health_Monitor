@@ -1,0 +1,13 @@
+PASS Bash syntax check
+PASS One real Linux sample written to CSV
+PASS Zero-percent threshold logs a real reading
+PASS Dashboard explains the controlled alert demonstration
+PASS All dashboard template fields replaced
+PASS Insufficient history keeps the prediction unavailable
+PASS Known rising test series predicts 41.00 percent and warns
+PASS Flat test series remains 40.00 percent without a warning
+PASS Prediction is bounded at 100 percent
+PASS Dashboard renderer recognizes the known predictive warning
+
+10 checks passed.
+Known input series above are test fixtures, not live measurements.

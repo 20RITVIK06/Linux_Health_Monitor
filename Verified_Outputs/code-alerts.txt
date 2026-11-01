@@ -1,0 +1,11 @@
+        current=$(awk -v c="$cpu" -v m="$mem" -v d="$disk" -v cl="$cpu_limit" -v ml="$mem_limit" -v dl="$disk_limit" \
+            'BEGIN {if(c>=cl)printf "CURRENT WARNING: CPU %.2f%% >= %s%%\n",c,cl;
+                    if(m>=ml)printf "CURRENT WARNING: Memory %.2f%% >= %s%%\n",m,ml;
+                    if(d>=dl)printf "CURRENT WARNING: Disk %.2f%% >= %s%%\n",d,dl}')
+        predictions=$(forecast "$window" 2 "$cpu_limit" CPU
+                      forecast "$window" 3 "$mem_limit" Memory
+                      forecast "$window" 4 "$disk_limit" Disk)
+        warnings=$(printf '%s\n%s\n' "$current" "$predictions" | awk '/WARNING/')
+        if [[ -n $warnings ]]; then
+            while IFS= read -r warning; do printf '%s %s\n' "$(date -Is)" "$warning" >> "$log"; done <<< "$warnings"
+        fi

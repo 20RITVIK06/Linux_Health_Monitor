@@ -1,0 +1,15 @@
+function model(c, i,x,y,sx,sy,sxx,sxy,syy,dx,dy,b) {
+    if(n<20 || times[n]-times[1]<60) return 0;
+    for(i=1;i<=n;i++) {
+        x=times[i]-times[1]; y=value[c,i];
+        sx+=x; sy+=y; sxx+=x*x; sxy+=x*y; syy+=y*y;
+    }
+    dx=n*sxx-sx*sx; dy=n*syy-sy*sy;
+    if(dx<=0)return 0;
+    slope[c]=(n*sxy-sx*sy)/dx;
+    b=(sy-slope[c]*sx)/n;
+    predicted[c]=b+slope[c]*(times[n]-times[1]+60);
+    if(predicted[c]<0)predicted[c]=0; if(predicted[c]>100)predicted[c]=100;
+    r2[c]=(dy>0 ? (n*sxy-sx*sy)^2/(dx*dy) : 0);
+    if(r2[c]>1)r2[c]=1;
+    return 1;

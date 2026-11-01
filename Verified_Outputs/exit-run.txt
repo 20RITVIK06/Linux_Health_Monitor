@@ -1,0 +1,14 @@
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:05:11+05:30 | Sample 1
+CPU 0.11% | Memory 6.78% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (1/20 samples; 0/60 seconds)
+Memory: collecting history (1/20 samples; 0/60 seconds)
+Disk: collecting history (1/20 samples; 0/60 seconds)
+
+Current readings: below thresholds
+
+Data: evidence/exit-check/metrics.csv | Alerts: evidence/exit-check/alerts.log (created when a warning occurs)
+Ctrl+C to stop.
+Browser dashboard: evidence/exit-check/dashboard.html (reloads automatically)

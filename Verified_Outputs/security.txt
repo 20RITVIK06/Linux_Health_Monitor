@@ -1,0 +1,11 @@
+$ grep -n dashboard rendering and replacement commands
+109:    for command in awk df date tail mkdir mktemp rm sleep mv; do
+115:    window=$(mktemp)
+116:    html_tmp=$(mktemp "$data_dir/.dashboard.XXXXXX")
+117:    trap 'rm -f -- "$window" "$html_tmp"' EXIT
+118:    trap 'printf "\nMonitor stopped. Readings saved in %s\n" "$data_dir"; exit 0' INT TERM
+160:        mv -f -- "$html_tmp" "$data_dir/dashboard.html"
+
+$ grep page refresh and CSV link
+<meta http-equiv="refresh" content="5">
+href="metrics.csv"

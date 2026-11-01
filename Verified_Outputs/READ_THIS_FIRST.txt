@@ -1,0 +1,4 @@
+These are recorded verification outputs from the controlled Linux run on 25 October 2026. They are not current readings from your laptop.
+The PNG files reproduce actual captured command output or source excerpts. dashboard.jpg is the real browser snapshot.
+The recorded HTML is a historical snapshot, not the live dashboard. For live output, run bash linux_health.sh and open health-data/dashboard.html.
+Known input series in tests are explicitly labeled fixtures.

@@ -1,0 +1,18 @@
+        read -r total idle < <(cpu_ticks)
+        read -r rx tx < <(network_bytes)
+        cpu=$(awk -v dt="$((total-prev_total))" -v di="$((idle-prev_idle))" \
+            'BEGIN {v=(dt>0?100*(dt-di)/dt:0); if(v<0)v=0; if(v>100)v=100; printf "%.2f",v}')
+        mem=$(awk '/^MemTotal:/ {t=$2} /^MemAvailable:/ {a=$2}
+            END {if(t<=0)exit 1; printf "%.2f",100*(t-a)/t}' /proc/meminfo)
+        disk=$(df -P / | awk 'NR==2 {gsub(/%/,"",$5); print $5}')
+        [[ $disk =~ ^[0-9]+$ ]] || { echo 'Could not read root disk usage.' >&2; exit 1; }
+        rates=$(awk -v dr="$((rx-prev_rx))" -v dt="$((tx-prev_tx))" -v sec="$((now-prev_time))" \
+            'BEGIN {if(sec<=0 || dr<0 || dt<0) print "counter reset / clock changed";
+             else printf "RX %.2f KiB/s | TX %.2f KiB/s",dr/sec/1024,dt/sec/1024}')
+        if ((now<=prev_time || now-prev_time>interval+30)); then
+            : > "$window"  # Restart trend history after a clock jump or long suspension.
+        fi
+        printf '%s,%s,%s,%s\n' "$now" "$cpu" "$mem" "$disk" >> "$csv"
+        printf '%s,%s,%s,%s\n' "$now" "$cpu" "$mem" "$disk" >> "$window"
+        history=$(tail -n 20 "$window")
+        printf '%s\n' "$history" > "$window"

@@ -1,0 +1,18 @@
+$ bash linux_health.sh --interval 1 --samples 1
+  --cpu-threshold 0 --data-dir demo-data
+
+LINUX SYSTEM HEALTH & PREDICTIVE MONITORING
+2026-10-25T23:02:50+05:30 | Sample 1
+CPU 0.11% | Memory 5.98% | Root disk 1%
+RX 0.00 KiB/s | TX 0.00 KiB/s
+
+CPU: collecting history (1/20 samples; 0/60 seconds)
+Memory: collecting history (1/20 samples; 0/60 seconds)
+Disk: collecting history (1/20 samples; 0/60 seconds)
+
+CURRENT WARNING: CPU 0.11% >= 0%
+
+Data: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/demo-data/metrics.csv | Alerts: /workspace/scratch/a53227ce3dc9/linux-command-report/evidence/demo-data/alerts.log (created when a warning occurs)
+
+$ cat demo-data/alerts.log
+2026-10-25T23:02:50+05:30 CURRENT WARNING: CPU 0.11% >= 0%

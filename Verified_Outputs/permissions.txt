@@ -1,0 +1,3 @@
+uid=0(root) gid=0(root) groups=0(root)
+-rw-r--r-- root:root linux-command-report/source/linux-health-dashboard/linux_health.sh
+-rw-r--r-- root:root linux-command-report/source/linux-health-dashboard/dashboard.awk

@@ -1,0 +1,10 @@
+        printf '%s,%s,%s,%s\n' "$now" "$cpu" "$mem" "$disk" >> "$csv"
+        awk -v cpu_limit="$cpu_limit" -v mem_limit="$mem_limit" -v disk_limit="$disk_limit" \
+            -v interval="$interval" -v count="$count" -v generated="$now" \
+            -v template="$script_dir/dashboard.template.html" \
+            -v rate_text="$rates" -v readable_time="$(date -Is)" \
+            -f "$script_dir/dashboard.awk" "$window" > "$html_tmp"
+        mv -f -- "$html_tmp" "$data_dir/dashboard.html"
+
+<meta http-equiv="refresh" content="5">
+href="metrics.csv"

@@ -1,0 +1,13 @@
+$ head -n 4 live-data/metrics.csv
+epoch,cpu_percent,memory_percent,disk_percent
+1792949509,0.06,5.75,1
+1792949513,0.25,5.77,1
+1792949517,0.17,5.79,1
+
+$ awk END live-data/metrics.csv (row count)
+20 data rows
+
+$ ls -lh live-data
+total 24K
+-rw-r--r-- 1 root root 17K Oct 25 23:03 dashboard.html
+-rw-r--r-- 1 root root 506 Oct 25 23:03 metrics.csv

@@ -1,0 +1,71 @@
+LINUX SYSTEM HEALTH AND PREDICTIVE MONITORING
+Complete project folder for Bollini Chandana Sai
+
+1. EXTRACT THE ZIP ON WINDOWS
+Save Linux_System_Health_Project.zip into C:\Users\bezaw\Downloads.
+Right-click the ZIP, choose Extract All, and use the default destination:
+C:\Users\bezaw\Downloads\Linux_System_Health_Project
+
+This folder contains the Bash program, frontend template, report, presentation,
+validation script, and real recorded output images. Keep the three source files
+linux_health.sh, dashboard.awk and dashboard.template.html together.
+
+2. START THE PROJECT IN WSL
+Open your WSL terminal. Run these commands one at a time:
+
+cd /mnt/c/Users/bezaw/Downloads/Linux_System_Health_Project
+explorer.exe .
+bash linux_health.sh
+
+If you extracted into a different location, use that location in the cd command.
+Alternatively, open the extracted folder in Windows File Explorer, click the
+address bar, type wsl and press Enter to open WSL in that folder.
+
+3. OPEN THE LIVE DASHBOARD
+Keep the WSL terminal running. After about 5 seconds, in the File Explorer
+window open health-data, then double-click dashboard.html in Chrome or Edge.
+The page refreshes every 5 seconds. Allow about 2 minutes for predictions.
+Check the timestamp at the bottom to confirm readings are still updating.
+No internet connection, web server, Python or extra packages are needed.
+Press Ctrl+C in WSL to stop collection.
+
+4. NEXT TIME
+Open WSL and repeat:
+
+cd /mnt/c/Users/bezaw/Downloads/Linux_System_Health_Project
+explorer.exe .
+bash linux_health.sh
+
+Do not extract the ZIP again. Open health-data/dashboard.html again.
+Only run one collector per output directory.
+
+5. FILES FOR YOUR PRESENTATION
+Linux_System_Health_Report.docx       Editable 29-page report
+Linux_System_Health_Report.pdf        Matching report for reading/printing
+Linux_Health_Project_Commands.pptx    Updated 10-slide Bash presentation
+                                    Speaker notes explain each slide.
+Verified_Outputs                     Genuine recorded output images and CSV
+
+6. SAFE ALERT DEMONSTRATION
+Stop normal collection with Ctrl+C, then run:
+
+bash linux_health.sh --cpu-threshold 0 --data-dir demo-data
+
+Open demo-data/dashboard.html. Explain that the 0% CPU limit is deliberately
+low and creates a warning from a real reading. It does not overload the laptop.
+Stop with Ctrl+C, then restart bash linux_health.sh for the normal limits.
+
+7. VERIFY THE PROJECT
+Run from this same folder:
+
+bash VERIFY_PROJECT.sh
+
+The checks write to validation-data. Some checks use clearly identified known
+input series; those are test fixtures, not live resource measurements.
+Do not open validation-data/fixture-dashboard.html as your live dashboard.
+
+IMPORTANT
+The old Python version is not part of this folder. The report and presentation
+describe the Bash and awk project. Linux metrics in WSL do not measure all
+Windows processes. Recorded outputs are from a separate Linux verification
+environment; the live dashboard uses your own Linux readings after you start it.
